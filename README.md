@@ -17,12 +17,14 @@ teknik augmentasi yang saya gunakan adalah kombinasi dari berbagai teknik dasar 
 ### Preprocessing
 
 _Dari setiap percobaan yang telah kalian lakukan, jelaskan bagaimana cara kalian menemukan preprocessing yang paling tepat. Jelaskan alasan kalian menggunakan teknik tersebut dan berikan alasan mengapa preprocessing diperlukan._
-preprocessing yang paling tepat mungkin pengurangan noise dan deteksi tepi. hal ini dikarenakan gambar pada dataset sifatnya random dari segi pencahayaan dan background, oleh karena itu dilakukan deteksi tepi agar dapat mengetahui data data yang serupa bentuknya. Dengan begitu dapat mempermudah untuk melakukan pemrosesan lebih lanjut. 
+
+Preprocessing yang paling tepat mungkin pengurangan noise dan deteksi tepi. hal ini dikarenakan gambar pada dataset sifatnya random dari segi pencahayaan dan background, oleh karena itu dilakukan deteksi tepi agar dapat mengetahui data data yang serupa bentuknya. Dengan begitu dapat mempermudah untuk melakukan pemrosesan lebih lanjut. 
 
 ### Feature Selection
 
 _Jelaskan bagaimana kalian menemukan fitur yang paling tepat untuk digunakan. Jelaskan alasan kalian menggunakan fitur tersebut dan berikan alasan mengapa fitur tersebut diperlukan._
-dengan menggunakan varian untuk mengetahui seberapa jauh nilai nilai dalam suatu variabel menyebar dari rata rata nlai variabel tersebut dan korelasi untuk mengukur sejauh mana 2 variabel berhubungan, dengan menggunakan dua metode ini dapat mengambil gitu yang paling informatif dan menghapus fitur yang tidak memberikan nilai tambah atau malah mengganggu kinerja model. Dengan demikian proses pengolahan lebih cepat dan ringan. Hal ini karena dimensi dari dataset fitur GLCM berkutang dan fitur-fitur yang tidak memiliki korelasi tinggi dengan fitur lainnya menghilang.
+
+Dengan menggunakan varian untuk mengetahui seberapa jauh nilai nilai dalam suatu variabel menyebar dari rata rata nlai variabel tersebut dan korelasi untuk mengukur sejauh mana 2 variabel berhubungan, dengan menggunakan dua metode ini dapat mengambil gitu yang paling informatif dan menghapus fitur yang tidak memberikan nilai tambah atau malah mengganggu kinerja model. Dengan demikian proses pengolahan lebih cepat dan ringan. Hal ini karena dimensi dari dataset fitur GLCM berkutang dan fitur-fitur yang tidak memiliki korelasi tinggi dengan fitur lainnya menghilang.
 
 ## Modeling
 
